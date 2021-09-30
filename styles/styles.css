@@ -1,0 +1,88 @@
+@import url('reset.css');
+
+body{
+    font-family:cursive;
+}
+label{
+   color:red;
+    font-size:50px;
+    padding-left:25px;
+}
+label:hover{
+    text-shadow: 4px 4px 10px red;
+}
+nav{
+    background-color:yellow;
+    height:80px; 
+}
+nav ul{
+    float:right;
+    padding-right:30px;
+    
+}
+nav ul li{
+    display:inline-block;
+    margin:25px 25px;
+}
+nav ul li a{
+    color:green;
+font-family:'Times New Roman', Times, serif;
+font-size:30px;
+}
+nav ul li a:hover{
+    text-shadow: 2px 2px 5px green;
+}
+
+.cards{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+ 
+   width:100%;
+    background: yellow;
+    background-size: cover;
+    
+   
+}
+.image{
+    width:100px;
+    height:100px;
+    
+    
+}
+.card-1 
+{
+    border:1px solid red;
+    padding:100px;
+    background-color: black;
+    
+}
+.card-1:hover{
+    background-color:red;
+    box-shadow: 6px 6px;
+}
+.card-2
+{
+    border:1px solid red;
+    padding:100px;
+    background-color: black;
+   
+}
+.card-2:hover{
+    background-color:red;
+    box-shadow: 6px 6px;
+}
+.card-3
+{
+    border:1px solid red;
+    padding:100px;
+    background-color: black;
+
+}
+.card-3:hover{
+    background-color:red;
+    box-shadow: 6px 6px;
+}
+
+
+/*cards , media-query, padding-margin
