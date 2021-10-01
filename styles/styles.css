@@ -94,9 +94,16 @@ nav ul li a:hover{
       box-shadow:4px 4px black;
   }
 
+  #section-2{
+    text-align:center;
+    font-size:40px;
+    margin:20px;
+}
+
   #section-3{
       text-align:center;
       font-size:40px;
+      margin:40px;
   }
 
   .section-three{
@@ -132,5 +139,6 @@ nav ul li a:hover{
   }
   .icon:hover{
 transform:rotatey(45deg);
+box-shadow: 2px 3px white;
   }
 
