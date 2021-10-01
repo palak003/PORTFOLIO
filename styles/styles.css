@@ -76,19 +76,27 @@ nav ul li a:hover{
   }
 
   .image-card{
-      width:400px;
-      height:300px;
+      width:470px;
+      height:400px;
       transition:transform;
       transition-duration:3s;
   }
   .image-card:hover{
       transform:rotateY(180deg);
   }
-  .heading-card{
-      text-align:center;
+  
+  .project-card{
+      margin:0 auto;
+      padding:50px;
+      
   }
   .project-card:hover{
       box-shadow:4px 4px black;
+  }
+
+  #section-3{
+      text-align:center;
+      font-size:40px;
   }
 
   .section-three{
