@@ -4,15 +4,23 @@ body{
     font-family:cursive;
 }
 label{
-   color:red;
+    text-shadow: 4px 4px 10px blue;
     font-size:50px;
-    padding-left:25px;
+    padding-left:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
-label:hover{
-    text-shadow: 4px 4px 10px red;
+.logo{
+    width:50px;
+    height:50px;
+   margin-top:20px;
 }
+.logo:hover{
+    box-shadow:3px 3px blue;
+}
+
 nav{
-    background-color:yellow;
+    background-color:aqua;
     height:80px; 
 }
 nav ul{
@@ -22,67 +30,99 @@ nav ul{
 }
 nav ul li{
     display:inline-block;
-    margin:25px 25px;
+    margin:30px 12px;
 }
 nav ul li a{
     color:green;
 font-family:'Times New Roman', Times, serif;
-font-size:30px;
+font-size:25px;
 }
 nav ul li a:hover{
     text-shadow: 2px 2px 5px green;
 }
 
-.cards{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
- 
-   width:100%;
-    background: yellow;
-    background-size: cover;
-    
-   
-}
-.image{
-    width:100px;
-    height:100px;
-    
-    
-}
-.card-1 
-{
-    border:1px solid red;
-    padding:100px;
-    background-color: black;
-    
-}
-.card-1:hover{
-    background-color:red;
-    box-shadow: 6px 6px;
-}
-.card-2
-{
-    border:1px solid red;
-    padding:100px;
-    background-color: black;
-   
-}
-.card-2:hover{
-    background-color:red;
-    box-shadow: 6px 6px;
-}
-.card-3
-{
-    border:1px solid red;
-    padding:100px;
-    background-color: black;
-
-}
-.card-3:hover{
-    background-color:red;
-    box-shadow: 6px 6px;
+.section-one{
+    background: url(/portfolio/assets/section-1-bg.jpg)no-repeat center center;
+    height:100vh;
+    background-size:cover;
 }
 
+.about{
+    margin-top:30px;
+    width:1300px;
+    height: 500px;
+    background-color:grey;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
 
-/*cards , media-query, padding-margin
+    
+  }
+  
+  @keyframes example {
+    0%   {background-color:darkcyan; left:0px; width:100%;}
+    25%{background-color:grey; left:200px; }
+    75% {background-color:darkcyan; left:0px;width:100%;}
+   }
+
+  .skills-container{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+  }
+  .section-two{
+      background-image:linear-gradient(darkcyan,grey);
+      background-size:cover;
+  }
+
+  .image-card{
+      width:400px;
+      height:300px;
+      transition:transform;
+      transition-duration:3s;
+  }
+  .image-card:hover{
+      transform:rotateY(180deg);
+  }
+  .heading-card{
+      text-align:center;
+  }
+  .project-card:hover{
+      box-shadow:4px 4px black;
+  }
+
+  .section-three{
+      background-image:linear-gradient(aqua,grey);
+      background-size:cover;
+  }
+  
+  .projects{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+      padding:200px;
+      margin:20px;
+  }
+
+  .footer{
+      background-color:black;
+      padding:50px;
+
+  }
+
+  .footer-container{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+  }
+
+  .icon{
+      height:60px;
+      width:60px;
+      transition:transform;
+      transition-duration:0.2s;
+  }
+  .icon:hover{
+transform:rotatey(45deg);
+  }
+
