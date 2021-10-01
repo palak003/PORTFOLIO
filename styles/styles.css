@@ -39,22 +39,24 @@ font-size:25px;
 }
 nav ul li a:hover{
     text-shadow: 2px 2px 5px green;
+    
 }
 
 .section-one{
-    background: url(/portfolio/assets/section-1-bg.jpg)no-repeat center center;
+    background: url("https://img2.goodfon.com/wallpaper/big/1/ef/abstrakciya-linii-goluboy-273.jpg")no-repeat center center;
     height:100vh;
     background-size:cover;
 }
 
 .about{
-    margin-top:30px;
+   
     width:1300px;
     height: 500px;
     background-color:grey;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
+    
 
     
   }
@@ -69,6 +71,7 @@ nav ul li a:hover{
       display:flex;
       flex-direction:row;
       justify-content:space-around;
+      
   }
   .section-two{
       background-image:linear-gradient(darkcyan,grey);
@@ -88,35 +91,47 @@ nav ul li a:hover{
   .project-card{
       margin:0 auto;
       padding:50px;
+     
       
   }
-  .project-card:hover{
-      box-shadow:4px 4px black;
-  }
+  
+ 
 
   #section-2{
     text-align:center;
-    font-size:40px;
-    margin:20px;
-}
-
+    font-size:100px;
+    padding:140px;
+    
+    text-shadow: 3px 2px white;
+    
+  }
   #section-3{
       text-align:center;
-      font-size:40px;
-      margin:40px;
+      font-size:100px;
+      padding:140px;
+     
+      text-shadow: 3px 2px white;
   }
 
   .section-three{
-      background-image:linear-gradient(aqua,grey);
+      background-image:linear-gradient(grey,aqua);
       background-size:cover;
   }
   
   .projects{
       display:flex;
       flex-direction:row;
-      justify-content:space-between;
-      padding:200px;
-      margin:20px;
+      justify-content:space-evenly;
+      padding:50px;
+     
+  }
+  .image-project-card{
+      width:600px;
+      height:500px;
+      transition:transform 1s;
+  }
+  .image-project-card:hover{
+      transform:scale(1.2);
   }
 
   .footer{
@@ -138,7 +153,7 @@ nav ul li a:hover{
       transition-duration:0.2s;
   }
   .icon:hover{
-transform:rotatey(45deg);
+transform:rotateY(45deg);
 box-shadow: 2px 3px white;
   }
 
